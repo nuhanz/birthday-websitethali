@@ -1,0 +1,75 @@
+/* Reset default styles */
+body, h1, h2, h3, h4, h5, h6, p, a, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Apply Poetsen One font to all text elements */
+body {
+    font-family: 'Poetsen One', sans-serif;
+    color: #333; /* Default text color */
+    background-color: #ffd9e6; /* Light Pink Background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    background-color: rgba(255, 192, 203, 0.8); /* Light Pink with transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Heading text color */
+    font-family: 'Poetsen One', sans-serif;
+    margin-bottom: 20px;
+}
+
+p, a, li {
+    color: #666; /* Paragraph, link, and list item text color */
+    font-family: 'Poetsen One', sans-serif;
+    margin-bottom: 10px;
+}
+
+a {
+    display: inline-block;
+    background-color: #ff69b4; /* Light Pink */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #e6499e; /* Darker Pink on Hover */
+}
+
+.answer-list {
+    text-align: left;
+}
+
+.answer-list li {
+    margin-bottom: 10px;
+}
+
+.birthday-cake {
+    max-width: 200px; /* Adjust size of birthday cake image */
+    margin-bottom: 20px; /* Add space below the image */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.friend-group-picture {
+    max-width: 100%; /* Ensure friend group picture scales with container */
+    margin: 20px auto; /* Center align and add space around the image */
+    border-radius: 10px; /* Rounded corners */
+}
